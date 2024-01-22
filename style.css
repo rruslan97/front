@@ -1,0 +1,45 @@
+body {
+    background-color: bisque;
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('/img/bg.jpg');
+};
+
+.container{
+    border: 3px solid green;
+}
+.header{
+    /* border: 3px solid pink; */
+}
+
+.content {
+    border: 3px solid rgb(0, 0, 0);
+    background-color:rgb(221, 214, 214);
+    border-radius: 2%;
+    background-image: url('/img/1.png');
+
+}
+
+.database {
+    display: inline-block;
+    width: 300px;
+    vertical-align: top;
+}
+
+.modalWindow1 {
+    display: inline-block;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 2%;
+    width: 370px;
+    margin-right: 0px;
+    margin-left: 20px;
+    background-color:beige
+
+}
+
+.main2 {
+
+}

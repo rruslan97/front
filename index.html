@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Storage base</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <button id="newFile">Создать папку</button>
+            <button id="startDeleteFile">Удалить все файлы</button>
+            <button>Загрузить файл</button>
+            <button>Скачать файл</button>
+            <button>Удалить файл</button>
+            <button>Переименовать</button>
+        </div>
+
+        <div class="content">
+            <div class="database" id="database">
+                <ul class="main" id="mainAll">this PC
+                    <ul class="main2" id="main2">
+                        <li class="main">Disc-1
+                            <ul>
+                                <li id="1">Program Files
+                                    <span class="del">X</span>
+                                </li>
+                                <li id="2">Users
+                                    <span class="del">X</span>
+                                </li>
+                                <li id="3">Windows
+                                    <span class="del">X</span>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="main">Disc-2:
+                            <ul>
+                                <li id="4">New Folder 1
+                                    <span class="del">X</span>
+                                </li>
+                                <li id="5" >New Folder 2
+                                    <span class="del">X</span>
+                                </li>
+                                <li id="6">New Folder 3
+                                    <span class="del">X</span>
+
+                                </li>
+                                
+                            </ul>
+                        </li>
+                    </ul>
+                </ul>
+            </div>
+            <div class="modalWindow1">
+                <span><p>ИнфТех является одним из крупнейших российских производителей программных продуктов 
+                    для автоматизации производственных процессов предприятия, 
+                    а также интегратором с многолетним опытом реализации решений на базе MES-систем.
+                    Компания существует на рынке c 2001 года, представлена центральным офисом 
+                    в г. Москва и обособленным подразделением в г. Уфа. С 2016 года включена в реестр аккредитованных 
+                    организаций Минцифры России, осуществляющих деятельность в области информационных технологий.
+                    Предлагаемые на рынке программные продукты ИнфТех и разрабатываемые решения обеспечивают реализацию 
+                    стратегии импортонезависимости для крупнейших отечественных предприятий.
+                    В 2016 году ИнфТех стал лауреатом Национальной премии в области импортозамещения «Приоритет-2016».
+                    </p></span>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
